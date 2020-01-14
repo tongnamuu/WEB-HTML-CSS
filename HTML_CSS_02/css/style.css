@@ -1,0 +1,47 @@
+@import "reset.css";
+@import "user.css";
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    margin:10px;
+    width:500px;
+    height:500px;
+    background-color: #e8effa;
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.container .container__row{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right:5px;
+}
+.container__photo{
+    width:60%;
+}
+.container__row{
+    width:100%;
+}
+.container__row .container__title{
+    font-size:30px;
+    font-weight:600;
+    padding-bottom:30px;
+}
+.container__row .container__product-info{
+    opacity:0.6;
+}
+.container__price-and-star{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    background-color : none;
+    padding-bottom: 80px;
+}
