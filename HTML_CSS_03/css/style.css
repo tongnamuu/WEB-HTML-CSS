@@ -1,0 +1,120 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+*{
+    box-sizing: border-box;
+}
+a{
+    color:rgba(219, 45, 45, 0.925);
+    text-decoration: none;
+}
+.signin{
+    width:500px;
+    height:700px;
+    background-color: thistle;
+}
+.signin__header{
+    font-family: 'Roboto Condensed',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top:10px;
+    height:100px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.signin__inputs{
+    width:100%;
+    height:200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.input__info{
+    width:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+}
+.input__info.input__etc{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:90%;
+    background-color: none;
+}
+.input__info .input__form{
+    width:100%;
+    height:30px;
+    background-color: white;
+    border-radius: 7px;
+    border:burlywood 0.5px solid;
+    font-family: "Roboto Condensed";
+    font-size:17px;
+    color:grey;
+}
+.input__info .signin__forgetpw{
+    padding-bottom: 60px;
+    color:rgba(219, 45, 45, 0.925);
+}
+
+.nav{
+    box-sizing: border-box;
+    width:100%;
+    height:300px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.nav .login{
+    width:90%;
+    height:40px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(219, 45, 45, 0.925);
+    border-radius: 20px;
+}
+.nav .login__or{
+    width:90%;
+    height:20%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    color:black;
+    font-size:25px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+.nav .login__auth{
+    width:90%;
+    height:40%;
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+.login__auth .login__another{
+    width:45%;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:30px;
+    font-family: 'Roboto Condensed',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+    border-radius: 30px;
+}
+.login__another.another__facebook{
+    background-color: darkblue;
+}
+.login__another.another__twitter{
+    background-color:skyblue;
+}
+.page-guide__register,.page-guide__retrive{
+    opacity:30%;
+}
