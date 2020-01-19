@@ -1,0 +1,69 @@
+.problem2 {
+  width: 400px;
+  height: 300px;
+  background-color: #b82ad4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.problem2:hover ~ .answer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.problem2:hover > .content2 {
+  transform: translateY(-20px);
+}
+.content2 {
+  width: 200px;
+  height: 150px;
+  background-image: linear-gradient(rgb(202, 14, 92), yellow);
+  transition: transform 0.5s ease-in-out;
+}
+
+.answer2 {
+  position: absolute;
+  bottom: -35px;
+  left: 0px;
+  width: 400px;
+  height: 0px;
+  background-color: #3411d1;
+  transition: height 0.5s ease-in-out;
+}
+
+.content2__2 {
+  display: none;
+  transition: width 0.5s ease-in-out;
+}
+.problem2:hover ~ .answer2 > .content2__2 {
+  width: 400px;
+  height: 50px;
+  background-image: linear-gradient(#37a4d6, #4240d1);
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.title2,
+.user2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+.user2 {
+  font-size: 10px;
+  margin-bottom: 12px;
+}
+.button2 {
+  width: 40%;
+  margin-top: 12px;
+  margin-right: 15px;
+}
+.button2__text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: indianred;
+}

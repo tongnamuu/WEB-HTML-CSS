@@ -1,0 +1,69 @@
+@import "./style2.css";
+@import "./style3.css";
+body {
+  margin: 0;
+}
+.main1,
+.main2 {
+  margin-bottom: 30px;
+}
+.problem1 {
+  width: 400px;
+  height: 300px;
+  background-color: #000332;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.problem1:hover ~ .answer1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content1 {
+  width: 200px;
+  height: 150px;
+  background-image: linear-gradient(green, yellow);
+}
+
+.answer1 {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  width: 400px;
+  height: 300px;
+  background-color: #42b869;
+  display: none;
+}
+
+.content1__1 {
+  width: 200px;
+  height: 150px;
+  background-image: linear-gradient(#37a4d6, #4240d1);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title1,
+.user1,
+.button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.user1 {
+  font-size: 10px;
+  margin-bottom: 12px;
+}
+.button1__text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: indianred;
+}

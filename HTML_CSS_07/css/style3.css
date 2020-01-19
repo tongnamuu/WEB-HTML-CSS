@@ -1,0 +1,71 @@
+.problem3 {
+  width: 400px;
+  height: 300px;
+  background-color: #1bb123;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+}
+.main3 {
+  position: relative;
+  width: 400px;
+  height: 300px;
+}
+.answer3 {
+  position: absolute;
+  top: 0px;
+  width: 400px;
+  height: 300px;
+  background-color: red;
+  transition: transform 0.5s ease-in-out;
+  display: flex;
+}
+.answer3__center {
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(rgb(202, 14, 92), yellow);
+  align-self: center;
+  justify-self: center;
+  position: absolute;
+  left: 150px;
+}
+.main3:hover > .answer3 {
+  transform: translateY(-40px) scale(0.5, 0.5);
+}
+.content3 {
+  width: 400px;
+  height: 50px;
+}
+
+.content3__3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.title3,
+.user3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+.user3 {
+  font-size: 10px;
+  margin-bottom: 12px;
+}
+.button3 {
+  width: 40%;
+  margin-top: 12px;
+  margin-right: 15px;
+}
+.button3__text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: indianred;
+}
